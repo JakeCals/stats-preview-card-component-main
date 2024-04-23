@@ -109,6 +109,9 @@ body {
     order: 1;
     text-align: left;
     padding: 3em 4em 3em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .card .title-card {
@@ -119,6 +122,7 @@ body {
     font-size: 0.9rem;
     line-height: 1.5;
     margin-right: 1.7em;
+    margin-top: 2em;
   }
 
   .card .hero-img {
@@ -129,7 +133,7 @@ body {
   .card .stats {
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 3em;
+    margin-top: 2em;
     margin-right: 1.7em;
   }
 
